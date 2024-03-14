@@ -35,17 +35,17 @@ Console.WriteLine(average);
 
 static double FindMax(int[] numbers)
 {
-    double max = numbers[0];
+    double valuesSum = numbers[0];
 
     for (int i = 1; i < numbers.Length; i++)
     {
-        if (numbers[i] > max)
+        if (numbers[i] > valuesSum)
         {
-            max = numbers[i];
+            valuesSum = numbers[i];
         }
     }
 
-    return max;
+    return valuesSum;
 }
 
 int[] numbers2 = {2, 8, 4, 6};
