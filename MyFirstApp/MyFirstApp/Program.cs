@@ -47,3 +47,6 @@ static double FindMax(int[] numbers)
 
     return max;
 }
+
+int[] numbers2 = {2, 8, 4, 6};
+Console.WriteLine(FindMax(numbers2));
