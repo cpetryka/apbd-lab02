@@ -1,10 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+// ------------------------------------------------------------------------------------------------
+// EXERCISE 2
+// ------------------------------------------------------------------------------------------------
+
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Modification 1");
 Console.WriteLine("Modification 2");
 Console.WriteLine("Modification 3");
 
+// ------------------------------------------------------------------------------------------------
+// EXERCISE 3
+// ------------------------------------------------------------------------------------------------
 
 static double GetAverage(int[] numbers)
 {
