@@ -15,14 +15,14 @@ Console.WriteLine("Modification 3");
 
 static double GetAverage(int[] numbers)
 {
-    double numbersSum = 0;
+    double sum = 0;
 
     for (int i = 0; i < numbers.Length; i++)
     {
-        numbersSum += numbers[i];
+        sum += numbers[i];
     }
 
-    return numbersSum / numbers.Length;
+    return sum / numbers.Length;
 }
 
 int[] numbers = {1, 2, 3, 4, 5};
